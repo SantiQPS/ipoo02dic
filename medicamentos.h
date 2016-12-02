@@ -2,8 +2,9 @@
 #define MEDICAMENTOS_H
 
 #include <string>
+using std::string;
 
-class Medicamentos(){
+class Medicamentos{
 	private:
 		string nombre;
 		double dosis;
